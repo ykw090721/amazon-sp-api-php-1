@@ -18,7 +18,7 @@ The purpose of this package is to have an easy way of getting started with the A
 Just require this package via composer:
 
 ```
-composer require mst1122/amazon-sp-api-php
+composer require MST1122/amazon-sp-api-php
 ```
 
 # Detailed Documentation
