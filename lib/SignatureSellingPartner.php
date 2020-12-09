@@ -7,7 +7,6 @@
  *
  * @category Class
  * @author   rodrigojob
-
  */
 /**
  * Selling Partner API for Solicitations
@@ -34,25 +33,28 @@ namespace Swagger\Client;
  * @package  Swagger\Client
  * @author   rodrigojob
  */
-class SignatureSellingPartner {
+class SignatureSellingPartner
+{
 
     /**
      * calculateSignature data
      *
-     * @param string  $accessKey   the Selling Partner Access Key
-     * @param string  $secretKey   the IAM secret
-     * @param string  $region the region use AWS
-     * @param string  $accessToken   the Selling Partner access-token
-     * @param string  $userAgent   the user-agent to sign
-     * @param string  $host   the host to sign
-     * @param string  $method   the method to sign
-     * @param string  $uri   the uri to sign
-     * @param string  $queryString   the queryString to sign
-     * @param mixed   $data   the data to sign
+     * @param string $accessKey STS-ACCESS-KEY
+     * @param string $secretKey STS-SECRET-KEY
+     * @param string $awsSecurityToken STS-Security-Token
+     * @param string $region the region use AWS
+     * @param string $accessToken the Selling Partner access-token
+     * @param string $userAgent the user-agent to sign
+     * @param string $host the host to sign
+     * @param string $method the method to sign
+     * @param string $uri the uri to sign
+     * @param string $queryString the queryString to sign
+     * @param mixed $data the data to sign
      *
      * @return array headers signed
      */
-    public static function calculateSignature($accessKey, $secretKey, $region, $accessToken, $userAgent, $host, $method, $uri = "", $queryString = "", $data = array()){
+    public static function calculateSignature($accessKey, $secretKey, $awsSecurityToken, $region, $accessToken, $userAgent, $host, $method, $uri = "", $queryString = "", $data = array())
+    {
         $service = 'execute-api';
         $terminationString = 'aws4_request';
         $algorithm = 'AWS4-HMAC-SHA256';
@@ -90,6 +92,7 @@ class SignatureSellingPartner {
             "Authorization" => $authorization_header,
             "user-agent" => $userAgent,
             "x-amz-access-token" => $accessToken,
+            "x-aws-security-token" => $awsSecurityToken,
             "x-amz-date" => $amzdate
         );
 

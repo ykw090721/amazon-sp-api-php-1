@@ -37,7 +37,7 @@ use Swagger\Client\ApiException;
 use Swagger\Client\Configuration;
 use Swagger\Client\HeaderSelector;
 use Swagger\Client\ObjectSerializer;
-use Swagger\Client\Signature;
+use Swagger\Client\SignatureSellingPartner;
 /**
  * OrdersV0Api Class Doc Comment
  *
@@ -376,7 +376,7 @@ class OrdersV0Api
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 
@@ -683,7 +683,7 @@ class OrdersV0Api
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 
@@ -990,7 +990,7 @@ class OrdersV0Api
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 
@@ -1306,7 +1306,7 @@ class OrdersV0Api
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 
@@ -1622,7 +1622,7 @@ class OrdersV0Api
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 
@@ -2060,7 +2060,7 @@ class OrdersV0Api
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 

@@ -37,7 +37,7 @@ use Swagger\Client\ApiException;
 use Swagger\Client\Configuration;
 use Swagger\Client\HeaderSelector;
 use Swagger\Client\ObjectSerializer;
-use Swagger\Client\Signature;
+use Swagger\Client\SignatureSellingPartner;
 
 /**
  * NotificationsApi Class Doc Comment
@@ -395,7 +395,7 @@ class NotificationsApi
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'POST', $resourcePath, $query);
 
@@ -740,7 +740,7 @@ class NotificationsApi
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'POST', $resourcePath, $query);
 
@@ -1071,7 +1071,7 @@ class NotificationsApi
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'DELETE', $resourcePath, $query);
 
@@ -1421,7 +1421,7 @@ class NotificationsApi
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'DELETE', $resourcePath, $query);
 
@@ -1752,7 +1752,7 @@ class NotificationsApi
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 
@@ -2064,7 +2064,7 @@ class NotificationsApi
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 
@@ -2387,7 +2387,7 @@ class NotificationsApi
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 
@@ -2737,7 +2737,7 @@ class NotificationsApi
 
         $sign = new SignatureSellingPartner();
         $headersX = $sign->calculateSignature($this->config->getApiKey("accessKey"),
-                $this->config->getApiKey("secretKey"), $this->config->getApiKey("region"),
+                $this->config->getApiKey("secretKey"), $this->config->getStsSessionSToken(), $this->config->getApiKey("region"),
                 $this->config->getAccessToken(), $this->config->getUserAgent(), str_replace("https://", "", $this->config->getHost()),
                 'GET', $resourcePath, $query);
 

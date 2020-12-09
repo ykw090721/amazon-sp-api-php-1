@@ -62,6 +62,13 @@ class Configuration
     protected $accessToken = '';
 
     /**
+     * STS Session token for OAuth
+     *
+     * @var string
+     */
+    protected $stsSessionToken = '';
+
+    /**
      * Username for HTTP basic authentication
      *
      * @var string
@@ -191,6 +198,28 @@ class Configuration
     public function getAccessToken()
     {
         return $this->accessToken;
+    }
+
+    /**
+     * Sets the AWS STS Security token for OAuth
+     *
+     * @param $stsSessionToken
+     * @return $this
+     */
+    public function setStsSessionSToken($stsSessionToken)
+    {
+        $this->stsSessionToken = $stsSessionToken;
+        return $this;
+    }
+
+    /**
+     * Gets the AWS STS Security token for OAuth
+     *
+     * @return string AWS STS Security token for OAuth
+     */
+    public function getStsSessionSToken()
+    {
+        return $this->stsSessionToken;
     }
 
     /**

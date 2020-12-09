@@ -34,8 +34,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $config = Swagger\Client\Configuration::getDefaultConfiguration();
 $config->setAccessToken('Atza|IwEBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); //access token of Selling Partner
-$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of IAM
-$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of IAM
+$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of AWS STS
+$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of AWS STS
+$config->setStsSessionSToken('FwoGZXIvYXdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Session Token of AWS STS
 $config->setApiKey("region", 'us-east-1'); //region of MarketPlace country
 
 
@@ -97,8 +98,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $config = Swagger\Client\Configuration::getDefaultConfiguration();
 $config->setAccessToken('Atza|IwEBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); //access token of Selling Partner
-$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of IAM
-$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of IAM
+$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of AWS STS
+$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of AWS STS
+$config->setStsSessionSToken('FwoGZXIvYXdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Session Token of AWS STS
 $config->setApiKey("region", 'us-east-1'); //region of MarketPlace country
 
 
@@ -160,8 +162,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $config = Swagger\Client\Configuration::getDefaultConfiguration();
 $config->setAccessToken('Atza|IwEBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); //access token of Selling Partner
-$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of IAM
-$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of IAM
+$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of AWS STS
+$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of AWS STS
+$config->setStsSessionSToken('FwoGZXIvYXdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Session Token of AWS STS
 $config->setApiKey("region", 'us-east-1'); //region of MarketPlace country
 
 
@@ -225,8 +228,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $config = Swagger\Client\Configuration::getDefaultConfiguration();
 $config->setAccessToken('Atza|IwEBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); //access token of Selling Partner
-$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of IAM
-$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of IAM
+$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of AWS STS
+$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of AWS STS
+$config->setStsSessionSToken('FwoGZXIvYXdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Session Token of AWS STS
 $config->setApiKey("region", 'us-east-1'); //region of MarketPlace country
 
 
@@ -288,8 +292,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $config = Swagger\Client\Configuration::getDefaultConfiguration();
 $config->setAccessToken('Atza|IwEBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); //access token of Selling Partner
-$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of IAM
-$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of IAM
+$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of AWS STS
+$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of AWS STS
+$config->setStsSessionSToken('FwoGZXIvYXdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Session Token of AWS STS
 $config->setApiKey("region", 'us-east-1'); //region of MarketPlace country
 
 
@@ -351,8 +356,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $config = Swagger\Client\Configuration::getDefaultConfiguration();
 $config->setAccessToken('Atza|IwEBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); //access token of Selling Partner
-$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of IAM
-$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of IAM
+$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of AWS STS
+$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of AWS STS
+$config->setStsSessionSToken('FwoGZXIvYXdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Session Token of AWS STS
 $config->setApiKey("region", 'us-east-1'); //region of MarketPlace country
 
 
@@ -414,8 +420,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $config = Swagger\Client\Configuration::getDefaultConfiguration();
 $config->setAccessToken('Atza|IwEBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); //access token of Selling Partner
-$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of IAM
-$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of IAM
+$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of AWS STS
+$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of AWS STS
+$config->setStsSessionSToken('FwoGZXIvYXdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Session Token of AWS STS
 $config->setApiKey("region", 'us-east-1'); //region of MarketPlace country
 
 
@@ -481,8 +488,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $config = Swagger\Client\Configuration::getDefaultConfiguration();
 $config->setAccessToken('Atza|IwEBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); //access token of Selling Partner
-$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of IAM
-$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of IAM
+$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of AWS STS
+$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of AWS STS
+$config->setStsSessionSToken('FwoGZXIvYXdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Session Token of AWS STS
 $config->setApiKey("region", 'us-east-1'); //region of MarketPlace country
 
 
@@ -550,8 +558,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $config = Swagger\Client\Configuration::getDefaultConfiguration();
 $config->setAccessToken('Atza|IwEBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); //access token of Selling Partner
-$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of IAM
-$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of IAM
+$config->setApiKey("accessKey", 'AKIA2xxxxxxxxxxxxx'); // Access Key of AWS STS
+$config->setApiKey("secretKey", '94U4Gi81Tpxxxxxxxxxxxxxxx'); // Secret Key of AWS STS
+$config->setStsSessionSToken('FwoGZXIvYXdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Session Token of AWS STS
 $config->setApiKey("region", 'us-east-1'); //region of MarketPlace country
 
 
