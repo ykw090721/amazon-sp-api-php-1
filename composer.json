@@ -1,19 +1,19 @@
 {
-    "name": "clousale/amazon-sp-api-php",
+    "name": "mst1122/amazon-sp-api-php",
     "description": "",
     "keywords": [
         "api",
         "amazon",
         "selling-partner",
         "sp-api",
-        "clousale"
+        "MST1122"
     ],
-    "homepage": "http://www.clousale.com",
+    "homepage": "https://github.com/MST1122",
     "license": "MIT",
     "authors": [
         {
-            "name": "ClouSale",
-            "homepage": "https://www.clousale.com"
+            "name": "MST1122",
+            "homepage": "https://github.com/MST1122"
         }
     ],
     "require": {
