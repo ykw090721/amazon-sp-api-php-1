@@ -1,5 +1,5 @@
 {
-    "name": "MST1122/amazon-sp-api-php",
+    "name": "mst1122/amazon-sp-api-php",
     "description": "",
     "keywords": [
         "api",
@@ -8,7 +8,7 @@
         "sp-api",
         "MST1122"
     ],
-    "homepage": "https://github.com/MST1122",
+    "homepage": "https://github.com/mst1122",
     "license": "MIT",
     "authors": [
         {
