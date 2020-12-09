@@ -23,16 +23,12 @@ composer require clousale/amazon-sp-api-php
 
 # Detailed Documentation
 
-You can find detailed documentation for this PHP Library in the [`docs/Api` directory](https://github.com/clousale/amazon-sp-api-php/tree/master/docs/Api)
+You can find detailed documentation for this PHP Library in the [`docs/Api` directory](https://github.com/MST1122/amazon-sp-api-php/tree/master/docs/Api)
 
 You can find general information about the Amazon Selling Partner API on [the official Amazon Developer Website](https://developer.amazonservices.com)
-
-# Notes
-
-If you're looking for a complete Repricing & FBA-Reimbursement solution, you might want to consider giving [ClouSale.com](https://www.clousale.com) a shot.
 
 # Thanks
 
 Thanks go out to everybody who added PRs and worked on this package:
 
-- [rodrigojob](https://www.github.com/rodrigojob)
+- [MST1122](https://github.com/MST1122)
